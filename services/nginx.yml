@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: httpd
+spec:
+  selector:
+    app: nginx
+  ports:
+    - protocol: TCP
+      port: 80
