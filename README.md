@@ -1,4 +1,8 @@
-These instructions assume deployment of the associated kubernetes/storage infrastructure
+# Kubernetes Lab
+
+This repository provides some resources which are useful for experimenting
+with kubernetes. It only provides API resources and does not provide any
+utilities for deploying kubernetes or storage infrastructure.
 
 Deploying resources defined in this repository is as simple as running
 ```
